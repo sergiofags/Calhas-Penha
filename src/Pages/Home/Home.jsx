@@ -44,6 +44,20 @@ function Home() {
             </div>
           </div>
         </section>
+        <section className='HomeMap'>
+          <div className="HomeContainer">
+            <div className="text">
+              <h3>Localização</h3>
+              <h2>Estamos aqui!</h2>
+              <p>Estamos presentes nas encantadoras cidades costeiras de Santa Catarina: <strong>Palhoça, Paulo Lopes, Garopaba, Imbituba</strong> e <strong>Imaruí.</strong> Oferecemos qualidade e confiança em cada serviço prestado, tornando seu lar seguro, não importa onde você esteja.</p>
+              <ButtonBlue content={'Saiba mais'} />
+            </div>
+            <div className="image">
+              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G6HduRTnpu7WuIrBauq7mpZF0HS023U&ehbc=2E312F&noprof=1" width="100%" height="100%"></iframe>
+            </div>
+            
+          </div>
+        </section>
     </> 
   );
 }

@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-.HomeServicos, .HomeContato {
+.HomeServicos, .HomeContato, .HomeMap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,11 +25,15 @@
   padding-bottom: 120px;
 }
 
+.HomeMap {
+  background-color: #001A39;
+}
+
 .HomeContato {
   background-color: #F5F9FF;
 }
 
-.HomeServicos .text, .HomeContato .text {
+.HomeServicos .text, .HomeContato .text, .HomeMap .text {
   width: 660px;
 }
 
@@ -43,7 +47,7 @@
   transition-duration: 800ms;
 }
 
-.HomeContato .image {
+.HomeContato .image, .HomeMap .image {
   width: 550px;
   height: 495px;
   border: 4px solid var(--secondColor);
@@ -102,6 +106,17 @@
   padding-bottom: 15px;
 }
 
+.HomeMap h3 {
+  color: var(--bannerTextColor);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  padding-bottom: 15px;
+}
+
 .HomeServicos h2, .HomeContato h2 {
   color: #251919;
   font-family: Montserrat;
@@ -113,8 +128,31 @@
   padding-bottom: 30px;
 }
 
+.HomeMap h2 {
+  color: var(--bannerTextColor);
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.0675rem;
+  padding-bottom: 30px;
+}
+
 .HomeServicos p, .HomeContato p {
   color: #765D6B;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem; /* 166.667% */
+  letter-spacing: -0.045rem;
+  padding-bottom: 30px;
+}
+
+.HomeMap p {
+  color: var(--bannerTextColor);
   text-align: justify;
   font-family: Poppins;
   font-size: 1.5rem;
@@ -171,6 +209,12 @@
     width: 100;
     height: 431px;
     display: none;
+  }
+
+  .HomeMap .HomeContainer .image {
+    margin-top: 60px;
+    display: block;
+    width: 100%;
   }
 }
 
