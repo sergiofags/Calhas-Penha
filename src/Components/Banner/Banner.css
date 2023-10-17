@@ -1,7 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primaryColor: #001A39;
+  --secondColor: #2476FF;
+  --thirdColor: #001630;
+  --textColor: #765D6B;
+  --titleColor: #251919;
+  --bannerTextColor: #fff;
+  --navTextColor: #fff;
+}
+
 .banner {
+  background: linear-gradient(180deg, rgb(28, 38, 50) 15.63%, rgba(28, 38, 50, 0.25) 90.1%, rgba(0, 0, 0, 0.00) 100%);
   height: 768px;
   width: 100%;
   top: 90px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.content-banner {
+  width: 416px;
+}
+
+.content-banner h1 {
+  color: var(--bannerTextColor);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.09rem;
+  margin-bottom: 20px;
+}
+
+.content-banner p {
+  color: var(--bannerTextColor);
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.06rem;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 461px) {
+  .content-banner {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .content-banner h1 {
+    font-size: 2.25rem;
+  }
+  
+  .content-banner p {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .content-banner h1 {
+    font-size: 1.75rem;
+  }
+  
+  .content-banner p {
+    font-size: 1rem;
+  }
 }

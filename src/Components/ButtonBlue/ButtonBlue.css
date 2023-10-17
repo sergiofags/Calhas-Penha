@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primaryColor: #001A39;
+  --secondColor: #2476FF;
+  --thirdColor: #001630;
+  --textColor: #765D6B;
+  --titleColor: #251919;
+  --bannerTextColor: #fff;
+  --navTextColor: #fff;
+}
+
+.ButtonBlue {
+  background: var(--secondColor);
+  width: 20.625rem;
+  padding-top: 25px;
+  height: 5rem;
+  border-radius: 6.25rem;
+}
+
+.ButtonBlue:hover {
+  background: #135bd6;
+  cursor: pointer;
+}
+
+.ButtonBlue p {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+@media screen and (max-width: 1289px) {
+  .ButtonBlue {
+    width: 15.625rem;
+    padding-top: 20px;
+    height: 4rem;
+  }
+
+  .ButtonBlue p {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .ButtonBlue {
+    width: 100%;
+  }
+}
