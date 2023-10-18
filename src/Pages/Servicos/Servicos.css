@@ -1,0 +1,54 @@
+.Servicos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Servicos h3 {
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  padding-bottom: 15px;
+}
+
+.Servicos h2 {
+  color: #251919;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.0675rem;
+  padding-bottom: 30px;
+}
+
+.Servicos p {
+  color: #765D6B;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem; /* 166.667% */
+  letter-spacing: -0.045rem;
+  padding-bottom: 30px;
+}
+
+.ServicosContainer {
+  width: 1289px;
+  margin: auto;
+}
+
+.Servicos-Grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}

@@ -7,7 +7,7 @@ function Sobre() {
   const textBanner = 'Compromisso, Qualidade e Experiência Desde o Início.';
 
   return (
-      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} />
+      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} button={'s'}/>
   );
 }
 

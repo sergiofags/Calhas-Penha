@@ -1,0 +1,183 @@
+.Contratar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Contratar h3 {
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  padding-bottom: 15px;
+}
+
+.Contratar h2 {
+  color: #251919;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.0675rem;
+  padding-bottom: 30px;
+}
+
+.ContratarContainer {
+  width: 1289px;
+  margin: auto;
+}
+
+.linha-um, .linha-dois, .linha-tres {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linha-dois, .linha-tres, .linha-quatro, .linha-cinco {
+  margin-top: 40px;
+}
+
+.linha-um input {
+  width: 39.375rem;
+  height: 4.375rem;
+  border-radius: 0.625rem;
+  background: #EDEDED;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+.linha-dois input, .linha-dois select {
+  width: 25.625rem;
+  height: 4.375rem;
+  border-radius: 0.625rem;
+  background: #EDEDED;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+.linha-tres select {
+  width: 39.375rem;
+  height: 4.375rem;
+  border-radius: 0.625rem;
+  background: #EDEDED;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+.linha-quatro textarea {
+  width: 80.625rem;
+  height: 8.75rem;
+  border-radius: 0.625rem;
+  background: #EDEDED;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+.button-form {
+  background: var(--secondColor);
+  width: 32.5rem;
+  height: 5rem;
+  border-radius: 6.25rem;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  border: none;
+  outline: none;
+}
+
+.button-form:hover {
+  background: #135bd6;
+  cursor: pointer;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  background-color: #f0f8fd;
+  outline: 1px solid #765D6B;
+}
+
+@media screen and (max-width: 1353px) {
+  .linha-um, .linha-dois, .linha-tres, .linha-quatro, .linha-cinco {
+    display: block;
+  }
+
+  .linha-um input, .linha-dois input, .linha-dois select, .linha-tres select, .linha-quatro textarea {
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
+  .linha-dois, .linha-tres, .linha-quatro, .linha-cinco {
+    margin-top: 20px;
+  }
+
+  .Contratar{
+    margin: auto;
+  }
+
+  form {
+    margin: auto;
+  }
+
+  .ContratarContainer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1289px) {
+  .button-form {
+    width: 32.5rem;;
+    height: 5rem;
+  }
+
+  .button-form {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .button-form {
+    width: 90%;
+  }
+}

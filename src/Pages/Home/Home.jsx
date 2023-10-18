@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <>
-      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} />
+      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} button={'s'}/>
         <section className='HomeServicos'>
           <div className="HomeContainer">
             <div className='text'>

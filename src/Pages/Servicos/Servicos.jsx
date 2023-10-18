@@ -1,4 +1,7 @@
 import React from 'react';
+
+import './Servicos.css';
+
 import Banner from '../../Components/Banner/Banner';
 
 function Servicos() {
@@ -7,7 +10,26 @@ function Servicos() {
   const textBanner = 'Transformando Ideias em Estruturas de Qualidade!';
 
   return (
-      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} />
+    <>
+      <Banner imageUrl={bannerUrl} title={titleBanner} text={textBanner} button={'s'}/>
+      <section className="Servicos">
+        <div className="ServicosContainer">
+          <div className="text">
+            <h3>Serviços</h3>
+            <h2>Nossos serviços</h2>
+            <p>Na nossa empresa, dedicamo-nos a oferecer serviços excepcionais de calhas, algerozes, chaminés e coifas em alumínio galvanizado e inox. Com habilidade artesanal e materiais de alta qualidade, transformamos ideias em realidade.</p>
+          </div>
+          <div className="Servicos-Grid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </>
+      
   );
 }
 
