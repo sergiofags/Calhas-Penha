@@ -1,0 +1,75 @@
+:root {
+  --primaryColor: #001A39;
+  --secondColor: #2476FF;
+  --thirdColor: #001630;
+  --textColor: #765D6B;
+  --titleColor: #251919;
+  --bannerTextColor: #fff;
+  --navTextColor: #fff;
+}
+
+.Sobre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Sobre h3 {
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+  padding-bottom: 15px;
+}
+
+.Sobre h2 {
+  color: #251919;
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.0675rem;
+}
+
+.SobreContainer {
+  width: 1289px;
+  margin: auto;
+}
+
+.SobreContainer .sobre-text {
+  margin-top: 60px;
+}
+
+.SobreContainer .sobre-text h4 {
+  color: #2476FF;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.06rem;
+  padding-bottom: 15px;
+}
+
+.SobreContainer .sobre-text p {
+  color: #765D6B;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+@media screen and (max-width: 1289px) {
+  .SobreContainer .sobre-text p, .SobreContainer .sobre-text h4, .Sobre, .Sobre h3, .Sobre h2 {
+    width: 90%;
+    margin: auto;
+  }
+}
