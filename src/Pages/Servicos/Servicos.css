@@ -58,7 +58,8 @@
 .Servicos-Grid {
   justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  grid-template-columns: repeat(2, 43%);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -115,7 +116,7 @@
   -ms-transition-timing-function: ease-out;
 }
 
-.Servicos-Grid div h3 {
+.Servicos-Grid div h4 {
   color: #2476FF;
   font-family: Montserrat;
   font-size: 2rem;
@@ -133,14 +134,41 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 1289px) {
-  .Servicos .text p, .Servicos .text h3, .Servicos .text h2 {
+@media screen and (max-width: 1297px) {
+  .Servicos h2 {
+    font-size: 2rem;
+  }
+  
+  .Servicos p {
+    font-size: 1.15rem;
+  }
+
+  .Servicos h3 {
+    font-size: 1.15rem;
+  }
+
+  .Servicos .Servicos-Grid h4 {
+    font-size: 1.5rem;
+  }
+
+  .Servicos .Servicos-Grid p {
+    font-size: 1.15rem;
+    text-align: justify;
+  }
+
+  .Servicos h2 {
+    font-size: 2rem;
+  }
+
+  .ServicosContainer {
     width: 90%;
     margin: auto;
   }
-}
 
-@media screen and (max-width: 1209px) {
+  .ServicosContainer .text {
+    width: 100%;
+  }
+
   .Servicos-Grid {
     width: 90%;
     display: grid;
@@ -169,5 +197,42 @@
 
   .Servicos-Grid div h3, .Servicos-Grid div p {
     width: 100%;
+  }
+
+  .Servicos-Grid div .image img {
+    /* Webkit for Chrome and Safari */
+    -webkit-transform: scale(1.1); /* Tamanho Normal da imagem */
+
+  }
+  
+  .Servicos-Grid div .image img:hover {
+    /* Webkit for Chrome and Safari */
+    -webkit-transform: scale(1.2); /* Esta é a escala de tamanho ampliada da imagem. */
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .Servicos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .Servicos h2 {
+    font-size: 1.75rem;
+  }
+  
+  .Servicos .Servicos-Grid h4 {
+    font-size: 1.25rem;
+  }
+
+  .Servicos h3, .Servicos p, .Servicos .Servicos-Grid p {
+    font-size: 1rem;
+  }
+
+  .Servicos {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }

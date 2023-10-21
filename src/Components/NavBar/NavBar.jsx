@@ -20,6 +20,11 @@ function Navbar() {
           <div className={`links-nav ${menuOpen ? 'active' : ''}`}>
 
             <ul>
+              <div className={`hamburger-menu2 ${menuOpen ? 'open' : ''}`} onClick={handleMenuToggle}>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+              </div>
               <Link to="/" className='Link-nav'><li>Início</li></Link>
               <Link to="/sobre" className='Link-nav'><li>Sobre</li></Link>
               <Link to="/servicos" className='Link-nav'><li>Serviços</li></Link>

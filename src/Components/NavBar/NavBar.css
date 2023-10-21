@@ -69,7 +69,6 @@ nav {
   flex-direction: column;
   padding-top: 29px;
   cursor: pointer;
-  z-index: 3;
   .line {
     width: 30px;
     height: 3px;
@@ -115,18 +114,33 @@ nav {
   }
 
   .links-nav.active ul {
+    z-index: 3;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    padding-top: 90px;
+    position: fixed;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     right: 0;
     background-color: #001A39;
     width: 300px;
-    height: 100%;
+    min-height: 100%;
     box-shadow: 0px 0px 100px 1000px rgba(0,0,0,0.3);
   }
+
+  .hamburger-menu2 {
+    flex-direction: column;
+    cursor: pointer;
+    padding-left: 15px;
+    margin-bottom: 29px;
+    .line {
+      width: 30px;
+      height: 3px;
+      background-color: var(--navTextColor);
+      margin-top: 6px;
+    }
+  }
+
 }
 
 @media screen and (max-width: 1289px) {

@@ -68,8 +68,55 @@
 }
 
 @media screen and (max-width: 1289px) {
-  .SobreContainer .sobre-text p, .SobreContainer .sobre-text h4, .Sobre, .Sobre h3, .Sobre h2 {
+  .SobreContainer {
     width: 90%;
     margin: auto;
+  }
+
+  .SobreContainer .text {
+    width: 100%;
+  }
+
+  .Sobre h3 {
+    font-size: 1.15rem;
+  }
+
+  .Sobre .sobre-text h4 {
+    font-size: 1.5rem;
+  }
+
+  .Sobre .sobre-text p {
+    font-size: 1.15rem;
+    text-align: justify;
+  }
+
+  .Sobre h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .Sobre {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 342px) {
+  .Sobre h2 {
+    font-size: 1.75rem;
+  }
+  
+  .Sobre .sobre-text h4 {
+    font-size: 1.25rem;
+  }
+
+  .Sobre h3, .Sobre .sobre-text p {
+    font-size: 1rem;
+  }
+
+  .Sobre {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }

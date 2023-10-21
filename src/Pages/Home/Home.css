@@ -218,6 +218,13 @@
   }
 }
 
+@media screen and (max-width: 496px) {
+  .HomeServicos, .HomeContato, .HomeMap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 342px) {
   .HomeContainer .text h2 {
     font-size: 1.75rem;

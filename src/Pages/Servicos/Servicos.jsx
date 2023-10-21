@@ -27,35 +27,35 @@ function Servicos() {
           </div>
           <div className="Servicos-Grid">
             <div>
-              <h3>Calhas de beiral</h3>
+              <h4>Calhas de beiral</h4>
               <p>R$ 64 reais por metro com Pintura Eletrostática.<br></br>R$ 58 reais por metro sem Pintura. </p>
               <div className="image">
                 <img src={CalhasBeiral} alt="" />
               </div>
             </div>
             <div>
-              <h3>Cano de alumínio</h3>
+              <h4>Cano de alumínio</h4>
               <p>R$ 64 reais com Pintura Eletrostática.<br></br>R$ 58 reais sem Pintura. </p>
               <div className="image">
                 <img src={CanoAluminio} alt="" />
               </div>
             </div>
             <div>
-              <h3>Algerosas e calhas fora do padrão</h3>
+              <h4>Algerosas e calhas fora do padrão</h4>
               <p>R$ 165,00 o m²</p>
               <div className="image">
                 <img src={Algerosas} alt="" />
               </div>
             </div>
             <div>
-              <h3>Cano de chaminé</h3>
+              <h4>Cano de chaminé</h4>
               <p>R$ 180,00 cano de 20cm de diâmetro.<br></br>R$ 200,00 cano de 25cm de diâmetro.<br></br>R$ 220,00 cano de 30cm de diâmetro.</p>
               <div className="image">
                 <img src={Chamine} alt="" />
               </div>
             </div>
             <div>
-              <h3>Coifas</h3>
+              <h4>Coifas</h4>
               <p>R$ 64 reais por metro com Pintura Eletrostática.<br></br>R$ 58 reais por metro sem Pintura. </p>
               <div className="image">
                 <img src={Coifa} alt="" />
