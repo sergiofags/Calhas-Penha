@@ -1,44 +1,36 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/logo.png';
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleMenuToggle = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
     <header>
-      <div className='container'>
-        <nav>
-          <div className='logotipo'>
-            <Link to="/"><img src={logo} alt=""/></Link>
+      <div className="containerNav">
+        <div class="nav">
+          <input type="checkbox" id="nav-check"/>
+          <div class="nav-header">
+            <div class="nav-title">
+              <img src={logo} alt="" />
+            </div>
           </div>
-          <div className={`links-nav ${menuOpen ? 'active' : ''}`}>
-
-            <ul>
-              <div className={`hamburger-menu2 ${menuOpen ? 'open' : ''}`} onClick={handleMenuToggle}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-              </div>
-              <Link to="/" className='Link-nav'><li>Início</li></Link>
-              <Link to="/sobre" className='Link-nav'><li>Sobre</li></Link>
-              <Link to="/servicos" className='Link-nav'><li>Serviços</li></Link>
-              <Link to="/contratar" className='Link-nav'><li>Contratar serviços</li></Link>
-            </ul>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
           </div>
-          <div className={`hamburger-menu ${menuOpen ? 'open' : ''}`} onClick={handleMenuToggle}>
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
+          <div class="nav-links">
+            <Link to="/"><a>Inicío</a></Link>
+            <Link to="/sobre"><a>Sobre</a></Link>
+            <Link to="/servicos"><a>Serviços</a></Link>
+            <Link to="/contratar"><a>Contratar serviço</a></Link>
           </div>
-        </nav>
+        </div>
       </div>
-    </header> 
+    </header>
+    
   );
 }
 

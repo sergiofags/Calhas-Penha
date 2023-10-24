@@ -5,7 +5,7 @@ import ButtonBanner from '../ButtonBanner/ButtonBanner';
 function Banner({ imageUrl, title, text, button }) {
   return (
     <div className="banner" style={{ backgroundImage: `url('${imageUrl}')` }}>
-      <div className="container">
+      <div className="containerBanner">
         <div className="content-banner">
           <h1>{title}</h1>
           <p>{text}</p>

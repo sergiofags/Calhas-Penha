@@ -14,9 +14,10 @@
 .ButtonBanner {
   background: #FFF;
   width: 100%;
-  padding-top: 25px;
   height: 5rem;
   border-radius: 6.25rem;
+  border: none;
+  outline: none;
 }
 
 .ButtonBanner:hover {
@@ -37,7 +38,6 @@
 
 @media screen and (max-width: 461px) {
   .ButtonBanner {
-    padding-top: 18px;
     height: 3.5rem;
     border-radius: 6.25rem;
   }

@@ -1,11 +1,14 @@
 import React from 'react';
 import './ButtonBlue.css';
+import { Link } from 'react-router-dom';
 
-function ButtonBlue({ content }) {
+function ButtonBlue({ content, path }) {
   return (
-    <div className='ButtonBlue'>
-      <p>{content}</p>
-    </div>
+    <Link to={path}>
+      <button className='ButtonBlue'>
+        <p>{content}</p>
+      </button>
+    </Link>
   );
 }
 

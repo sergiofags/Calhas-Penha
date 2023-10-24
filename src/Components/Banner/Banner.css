@@ -28,6 +28,11 @@
   width: 416px;
 }
 
+.containerBanner {
+  width: 1289px;
+  margin: auto;
+}
+
 .content-banner h1 {
   color: var(--bannerTextColor);
   font-family: 'Montserrat', sans-serif;
@@ -48,6 +53,12 @@
   line-height: normal;
   letter-spacing: -0.06rem;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1289px) {
+  .containerBanner {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 461px) {

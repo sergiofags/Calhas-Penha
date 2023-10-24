@@ -14,9 +14,10 @@
 .ButtonBlue {
   background: var(--secondColor);
   width: 20.625rem;
-  padding-top: 25px;
   height: 5rem;
   border-radius: 6.25rem;
+  border: none;
+  outline: none;
 }
 
 .ButtonBlue:hover {
@@ -38,7 +39,6 @@
 @media screen and (max-width: 1289px) {
   .ButtonBlue {
     width: 15.625rem;
-    padding-top: 20px;
     height: 4rem;
   }
 

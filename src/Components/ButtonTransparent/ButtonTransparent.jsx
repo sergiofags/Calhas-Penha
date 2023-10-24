@@ -1,11 +1,15 @@
 import React from 'react';
 import './ButtonTransparent.css';
+import { Link } from 'react-router-dom';
 
-function ButtonTransparent({ content }) {
+function ButtonTransparent({ content, path }) {
   return (
-    <div className='ButtonTransparent'>
-      <p>{content}</p>
-    </div>
+    <Link to={path}>
+      <button className='ButtonTransparent'>
+        <p>{content}</p>
+      </button>
+    </Link>
+    
   );
 }
 

@@ -14,7 +14,6 @@
 .ButtonForm {
   background: var(--secondColor);
   width: 32.5rem;
-  padding-top: 25px;
   height: 5rem;
   border-radius: 6.25rem;
 }
@@ -38,7 +37,6 @@
 @media screen and (max-width: 1289px) {
   .ButtonForm {
     width: 15.625rem;
-    padding-top: 20px;
     height: 4rem;
   }
 

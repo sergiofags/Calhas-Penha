@@ -24,7 +24,7 @@ function Home() {
               <h3>Serviços</h3>
               <h2>Seu projeto merece o melhor!</h2>
               <p>Na nossa fábrica, a qualidade encontra a inovação. Oferecemos as melhores soluções em calhas, chaminés e algerosas, cuidadosamente projetadas para proteger sua casa e aprimorar seu visual. Com uma equipe dedicada e produtos de alta qualidade, garantimos não apenas funcionalidade excepcional, mas também estilo duradouro. </p>
-              <ButtonBlue content={'Nossos serviços'} />
+              <ButtonBlue content={'Nossos serviços'} path={'/servicos'} />
             </div>
             <div className='image'>
               <img src={homeServicos} alt="" />
@@ -40,7 +40,7 @@ function Home() {
               <h3>Contrate-nos</h3>
               <h2>Nossos produtos são a Escolha Certa!</h2>
               <p>Nossa equipe experiente não apenas instala calhas, mas cria soluções personalizadas para atender às suas necessidades específicas. Estamos comprometidos em fornecer um serviço excepcional, desde o primeiro contato até a conclusão do projeto. Faça a escolha certa. Faça a escolha pela qualidade.</p>
-              <ButtonTransparent content={'Contrate o melhor'} />
+              <ButtonTransparent content={'Contrate o melhor'} path={'/contratar'} />
             </div>
           </div>
         </section>
@@ -50,7 +50,7 @@ function Home() {
               <h3>Localização</h3>
               <h2>Estamos aqui!</h2>
               <p>Estamos presentes nas encantadoras cidades costeiras de Santa Catarina: <strong>Palhoça, Paulo Lopes, Garopaba, Imbituba</strong> e <strong>Imaruí.</strong> Oferecemos qualidade e confiança em cada serviço prestado, tornando seu lar seguro, não importa onde você esteja.</p>
-              <ButtonBlue content={'Saiba mais'} />
+              <ButtonBlue content={'Saiba mais'} path={'/sobre'} />
             </div>
             <div className="image">
               <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1G6HduRTnpu7WuIrBauq7mpZF0HS023U&ehbc=2E312F&noprof=1" width="100%" height="100%"></iframe>
