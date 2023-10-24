@@ -5,6 +5,7 @@ import Sobre from '../Pages/Sobre/Sobre';
 import Servicos from '../Pages/Servicos/Servicos';
 import Contratar from '../Pages/Contratar/Contratar';
 import NavBar from '../Components/NavBar/NavBar';
+import Footer from '../Components/Footer/Footer';
 
 function AppRouter() {
   return (
@@ -17,6 +18,7 @@ function AppRouter() {
           <Route path="/servicos" element={<Servicos />} />
           <Route path="/contratar" element={<Contratar />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

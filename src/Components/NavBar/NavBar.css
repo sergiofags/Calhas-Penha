@@ -131,7 +131,7 @@ nav {
   .hamburger-menu2 {
     flex-direction: column;
     cursor: pointer;
-    padding-left: 15px;
+    padding-left: 220px;
     margin-bottom: 29px;
     .line {
       width: 30px;

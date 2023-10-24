@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --primaryColor: #001A39;
+  --secondColor: #2476FF;
+  --thirdColor: #001630;
+  --textColor: #765D6B;
+  --titleColor: #251919;
+  --bannerTextColor: #fff;
+  --navTextColor: #fff;
+}
+
+footer {
+  background-color: var(--thirdColor);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #fff;
+}
+
+.ContainerFooter {
+  width: 1289px;
+  margin: auto;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoFooter {
+  margin-bottom: 60px;
+}
+
+.info div p {
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem; /* 166.667% */
+}
+
+.info {
+  margin-bottom: 60px;
+}
+
+.direitos p {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem; /* 166.667% */
+}
+
+@media screen and (max-width: 1289px) {
+  .ContainerFooter {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 709px) {
+  .ContainerFooter {
+    width: 90%;
+    text-align: center;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .info div p {
+    text-align: center;
+  }
+
+  .info div {
+    margin-bottom: 60px;
+  }
+}
